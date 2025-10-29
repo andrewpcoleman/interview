@@ -60,7 +60,7 @@ public class TractorTest {
         try {
             tractor.move("F");
             fail("Tractor was expected to fall off the plateau");
-        } catch (TractorInDitchException exception){           
+        } catch (TractorInDitchException expected){           
         }
     }
 }
